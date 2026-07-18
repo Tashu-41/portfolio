@@ -41,7 +41,7 @@ sections.forEach(section=>{
 });
 
 // Typing Effect
-const text = "UI/UX Designer & Frontend Developer";
+const text = "UI/UX Designer & Graphic Designer";
 
 let i = 0;
 
