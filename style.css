@@ -289,6 +289,7 @@ nav ul li a.active{
 .hero{
     flex-direction:column-reverse;
     text-align:center;
+    overflow-x: hidden;
 }
 
 .about-container{
@@ -329,4 +330,48 @@ nav ul{
     background-size:cover;
     background-repeat: no-repeat;
     color: black;
+}
+
+@media (max-width: 768px){
+    {overflow-x: hidden;}
+section,.about-container,header, footer{
+    width: 100% !important;
+    max-width:100% !important;
+    padding-left:20px !important;
+    padding-right: 20px!important;
+    box-sizing: border-box;
+}   
+.row, .grid, .flex-container,
+[class*="content"],
+[class*="cards"],
+[class*="wrapper"] {
+    display: flex !important;
+    flex-direction:column !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+nav, .navbar{
+    flex-direction: column;
+    padding: 10px 0;
+}
+nav ul, .nav-link{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: auto;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1{ font-size: 2rem; text-align: center;}
+h2{ font-size: 1.6rem; text-align: center;}
+h3{ font-size: 1.3rem; text-align: center;}
+p{ font-size: 0.95rem; text-align: center;}
+.btn, button, a.button{
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+    margin: 5px auto;
+}
 }
