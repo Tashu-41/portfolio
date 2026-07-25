@@ -368,7 +368,7 @@ img{
     max-width: 100%;
     height: auto;
 }
-h1{ font-size: 2rem; text-align: center;}
+h1{ font-size: 2rem; text-align: center; margin-left: 0%;}
 h2{ font-size: 1.6rem; text-align: center;}
 h3{ font-size: 1.3rem; text-align: center;}
 p{ font-size: 0.95rem; text-align: center;}
