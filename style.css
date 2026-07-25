@@ -378,4 +378,24 @@ p{ font-size: 0.95rem; text-align: center;}
     text-align: center;
     margin: 5px auto;
 }
+h1{
+    text-align: center !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    position: static !important;
+    width: 100% !important;
+    display: block !important;
+}
+.hero-text, .hero-content,
+div:has(>h1){
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
 }
