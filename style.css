@@ -9,6 +9,7 @@
 body{
     background:white;
     color:#222;
+    max-width: 100vw; overflow-x: hidden; 
 }
 
 nav{
@@ -290,6 +291,7 @@ nav ul li a.active{
 
 .about-container{
     flex-direction:column;
+    max-width: 100%; height: auto;
 }
 
 .hero-left h1{
