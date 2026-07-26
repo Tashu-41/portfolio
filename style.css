@@ -285,19 +285,14 @@ nav ul li a.active{
 }
 
 @media(max-width:768px){
-h1{
-    text-align: center !important;
-    width: 100% !important;
-}
+
 .hero{
     flex-direction:column-reverse;
     text-align:center;
-    overflow-x: hidden;
 }
 
 .about-container{
     flex-direction:column;
-    max-width: 100%; height: auto;
 }
 
 .hero-left h1{
