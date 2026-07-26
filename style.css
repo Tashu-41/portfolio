@@ -281,7 +281,7 @@ nav ul li a.active{
     font-weight:700;
 }
 
-@media(max-width:768px){
+@media(max-width: Auto){
 
 .hero{
     flex-direction:column-reverse;
